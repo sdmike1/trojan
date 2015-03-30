@@ -30,7 +30,6 @@ def connect():
 
 	return gh, repo, branch
 
-def main():
 
 	gh,repo,branch = connect()
 	print gh
